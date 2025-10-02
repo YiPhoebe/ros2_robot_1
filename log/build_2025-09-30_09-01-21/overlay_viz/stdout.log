@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/overlay_viz/overlay_viz.egg-info/PKG-INFO
+writing dependency_links to ../../build/overlay_viz/overlay_viz.egg-info/dependency_links.txt
+writing entry points to ../../build/overlay_viz/overlay_viz.egg-info/entry_points.txt
+writing requirements to ../../build/overlay_viz/overlay_viz.egg-info/requires.txt
+writing top-level names to ../../build/overlay_viz/overlay_viz.egg-info/top_level.txt
+reading manifest file '../../build/overlay_viz/overlay_viz.egg-info/SOURCES.txt'
+writing manifest file '../../build/overlay_viz/overlay_viz.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/workspace/install/overlay_viz/lib/python3.10/site-packages/overlay_viz-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/overlay_viz/overlay_viz.egg-info to /workspace/install/overlay_viz/lib/python3.10/site-packages/overlay_viz-0.0.0-py3.10.egg-info
+running install_scripts
+Installing overlay_viz_node script to /workspace/install/overlay_viz/lib/overlay_viz
+writing list of installed files to '/workspace/build/overlay_viz/install.log'

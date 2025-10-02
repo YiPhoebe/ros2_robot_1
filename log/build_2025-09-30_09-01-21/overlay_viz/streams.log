@@ -1,0 +1,21 @@
+[1.991s] Invoking command in '/workspace/src/overlay_viz': PYTHONPATH=/workspace/build/overlay_viz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/overlay_viz/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/overlay_viz build --build-base /workspace/build/overlay_viz/build install --record /workspace/build/overlay_viz/install.log --single-version-externally-managed install_data
+[2.509s] running egg_info
+[2.531s] writing ../../build/overlay_viz/overlay_viz.egg-info/PKG-INFO
+[2.566s] writing dependency_links to ../../build/overlay_viz/overlay_viz.egg-info/dependency_links.txt
+[2.578s] writing entry points to ../../build/overlay_viz/overlay_viz.egg-info/entry_points.txt
+[2.588s] writing requirements to ../../build/overlay_viz/overlay_viz.egg-info/requires.txt
+[2.602s] writing top-level names to ../../build/overlay_viz/overlay_viz.egg-info/top_level.txt
+[2.639s] reading manifest file '../../build/overlay_viz/overlay_viz.egg-info/SOURCES.txt'
+[2.648s] writing manifest file '../../build/overlay_viz/overlay_viz.egg-info/SOURCES.txt'
+[2.651s] running build
+[2.655s] running build_py
+[2.670s] running install
+[2.671s] running install_lib
+[2.699s] running install_data
+[2.705s] running install_egg_info
+[2.720s] removing '/workspace/install/overlay_viz/lib/python3.10/site-packages/overlay_viz-0.0.0-py3.10.egg-info' (and everything under it)
+[2.730s] Copying ../../build/overlay_viz/overlay_viz.egg-info to /workspace/install/overlay_viz/lib/python3.10/site-packages/overlay_viz-0.0.0-py3.10.egg-info
+[2.748s] running install_scripts
+[2.839s] Installing overlay_viz_node script to /workspace/install/overlay_viz/lib/overlay_viz
+[2.865s] writing list of installed files to '/workspace/build/overlay_viz/install.log'
+[3.113s] Invoked command in '/workspace/src/overlay_viz' returned '0': PYTHONPATH=/workspace/build/overlay_viz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/overlay_viz/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/overlay_viz build --build-base /workspace/build/overlay_viz/build install --record /workspace/build/overlay_viz/install.log --single-version-externally-managed install_data

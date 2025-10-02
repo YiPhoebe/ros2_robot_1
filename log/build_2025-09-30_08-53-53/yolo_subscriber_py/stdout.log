@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/yolo_subscriber_py/yolo_subscriber_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/yolo_subscriber_py/yolo_subscriber_py.egg-info/dependency_links.txt
+writing entry points to ../../build/yolo_subscriber_py/yolo_subscriber_py.egg-info/entry_points.txt
+writing requirements to ../../build/yolo_subscriber_py/yolo_subscriber_py.egg-info/requires.txt
+writing top-level names to ../../build/yolo_subscriber_py/yolo_subscriber_py.egg-info/top_level.txt
+reading manifest file '../../build/yolo_subscriber_py/yolo_subscriber_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/yolo_subscriber_py/yolo_subscriber_py.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/workspace/install/yolo_subscriber_py/lib/python3.10/site-packages/yolo_subscriber_py-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/yolo_subscriber_py/yolo_subscriber_py.egg-info to /workspace/install/yolo_subscriber_py/lib/python3.10/site-packages/yolo_subscriber_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing det_to_pc_node script to /workspace/install/yolo_subscriber_py/lib/yolo_subscriber_py
+Installing yolo_subscriber_py_node script to /workspace/install/yolo_subscriber_py/lib/yolo_subscriber_py
+writing list of installed files to '/workspace/build/yolo_subscriber_py/install.log'

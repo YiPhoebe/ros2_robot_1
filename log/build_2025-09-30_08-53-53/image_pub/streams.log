@@ -1,0 +1,23 @@
+[2.168s] Invoking command in '/workspace/src/image_pub': PYTHONPATH=/workspace/build/image_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/image_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_pub build --build-base /workspace/build/image_pub/build install --record /workspace/build/image_pub/install.log --single-version-externally-managed install_data
+[2.968s] running egg_info
+[2.984s] writing ../../build/image_pub/image_pub.egg-info/PKG-INFO
+[2.986s] writing dependency_links to ../../build/image_pub/image_pub.egg-info/dependency_links.txt
+[2.988s] writing entry points to ../../build/image_pub/image_pub.egg-info/entry_points.txt
+[2.999s] writing requirements to ../../build/image_pub/image_pub.egg-info/requires.txt
+[3.009s] writing top-level names to ../../build/image_pub/image_pub.egg-info/top_level.txt
+[3.033s] reading manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'
+[3.040s] writing manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'
+[3.050s] running build
+[3.054s] running build_py
+[3.058s] running install
+[3.063s] running install_lib
+[3.092s] running install_data
+[3.096s] running install_egg_info
+[3.103s] removing '/workspace/install/image_pub/lib/python3.10/site-packages/image_pub-0.0.0-py3.10.egg-info' (and everything under it)
+[3.132s] Copying ../../build/image_pub/image_pub.egg-info to /workspace/install/image_pub/lib/python3.10/site-packages/image_pub-0.0.0-py3.10.egg-info
+[3.288s] running install_scripts
+[3.354s] Installing image_pub_node script to /workspace/install/image_pub/lib/image_pub
+[3.357s] Installing image_pub_rgb_node script to /workspace/install/image_pub/lib/image_pub
+[3.362s] Installing image_recorder_node script to /workspace/install/image_pub/lib/image_pub
+[3.467s] writing list of installed files to '/workspace/build/image_pub/install.log'
+[3.691s] Invoked command in '/workspace/src/image_pub' returned '0': PYTHONPATH=/workspace/build/image_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/image_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_pub build --build-base /workspace/build/image_pub/build install --record /workspace/build/image_pub/install.log --single-version-externally-managed install_data

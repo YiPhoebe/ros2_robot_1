@@ -1,0 +1,6 @@
+{
+	"name": "ROS2 Dev Container",
+	"image": "ros:iron-ros-base",
+	"workspaceFolder": "/workspace",
+	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind"
+  }

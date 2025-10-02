@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/overlay_viz/overlay_viz.egg-info
+writing ../../build/overlay_viz/overlay_viz.egg-info/PKG-INFO
+writing dependency_links to ../../build/overlay_viz/overlay_viz.egg-info/dependency_links.txt
+writing entry points to ../../build/overlay_viz/overlay_viz.egg-info/entry_points.txt
+writing requirements to ../../build/overlay_viz/overlay_viz.egg-info/requires.txt
+writing top-level names to ../../build/overlay_viz/overlay_viz.egg-info/top_level.txt
+writing manifest file '../../build/overlay_viz/overlay_viz.egg-info/SOURCES.txt'
+reading manifest file '../../build/overlay_viz/overlay_viz.egg-info/SOURCES.txt'
+writing manifest file '../../build/overlay_viz/overlay_viz.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspace/build/overlay_viz/build
+creating /workspace/build/overlay_viz/build/lib
+creating /workspace/build/overlay_viz/build/lib/overlay_viz
+copying overlay_viz/overlay_viz_node.py -> /workspace/build/overlay_viz/build/lib/overlay_viz
+copying overlay_viz/__init__.py -> /workspace/build/overlay_viz/build/lib/overlay_viz
+running install
+running install_lib
+creating /workspace/install/overlay_viz/lib/python3.10/site-packages/overlay_viz
+copying /workspace/build/overlay_viz/build/lib/overlay_viz/overlay_viz_node.py -> /workspace/install/overlay_viz/lib/python3.10/site-packages/overlay_viz
+copying /workspace/build/overlay_viz/build/lib/overlay_viz/__init__.py -> /workspace/install/overlay_viz/lib/python3.10/site-packages/overlay_viz
+byte-compiling /workspace/install/overlay_viz/lib/python3.10/site-packages/overlay_viz/overlay_viz_node.py to overlay_viz_node.cpython-310.pyc
+byte-compiling /workspace/install/overlay_viz/lib/python3.10/site-packages/overlay_viz/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /workspace/install/overlay_viz/share/ament_index
+creating /workspace/install/overlay_viz/share/ament_index/resource_index
+creating /workspace/install/overlay_viz/share/ament_index/resource_index/packages
+copying resource/overlay_viz -> /workspace/install/overlay_viz/share/ament_index/resource_index/packages
+copying package.xml -> /workspace/install/overlay_viz/share/overlay_viz
+running install_egg_info
+Copying ../../build/overlay_viz/overlay_viz.egg-info to /workspace/install/overlay_viz/lib/python3.10/site-packages/overlay_viz-0.0.0-py3.10.egg-info
+running install_scripts
+Installing overlay_viz_node script to /workspace/install/overlay_viz/lib/overlay_viz
+writing list of installed files to '/workspace/build/overlay_viz/install.log'

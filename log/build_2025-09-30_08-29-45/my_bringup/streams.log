@@ -1,0 +1,28 @@
+[0.743s] Invoking command in '/workspace/src/my_bringup': PYTHONPATH=/workspace/build/my_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/my_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_bringup build --build-base /workspace/build/my_bringup/build install --record /workspace/build/my_bringup/install.log --single-version-externally-managed install_data
+[1.000s] running egg_info
+[1.001s] creating ../../build/my_bringup/my_bringup.egg-info
+[1.003s] writing ../../build/my_bringup/my_bringup.egg-info/PKG-INFO
+[1.007s] writing dependency_links to ../../build/my_bringup/my_bringup.egg-info/dependency_links.txt
+[1.009s] writing entry points to ../../build/my_bringup/my_bringup.egg-info/entry_points.txt
+[1.012s] writing requirements to ../../build/my_bringup/my_bringup.egg-info/requires.txt
+[1.013s] writing top-level names to ../../build/my_bringup/my_bringup.egg-info/top_level.txt
+[1.015s] writing manifest file '../../build/my_bringup/my_bringup.egg-info/SOURCES.txt'
+[1.021s] reading manifest file '../../build/my_bringup/my_bringup.egg-info/SOURCES.txt'
+[1.024s] writing manifest file '../../build/my_bringup/my_bringup.egg-info/SOURCES.txt'
+[1.030s] running build
+[1.031s] running install
+[1.036s] running install_data
+[1.040s] creating /workspace/install/my_bringup/share/ament_index
+[1.042s] creating /workspace/install/my_bringup/share/ament_index/resource_index
+[1.043s] creating /workspace/install/my_bringup/share/ament_index/resource_index/packages
+[1.044s] copying resource/my_bringup -> /workspace/install/my_bringup/share/ament_index/resource_index/packages
+[1.051s] copying package.xml -> /workspace/install/my_bringup/share/my_bringup
+[1.056s] creating /workspace/install/my_bringup/share/my_bringup/launch
+[1.061s] copying launch/all_nodes.launch.py -> /workspace/install/my_bringup/share/my_bringup/launch
+[1.066s] creating /workspace/install/my_bringup/share/my_bringup/rviz
+[1.067s] copying rviz/yolo_viz.rviz -> /workspace/install/my_bringup/share/my_bringup/rviz
+[1.073s] running install_egg_info
+[1.079s] Copying ../../build/my_bringup/my_bringup.egg-info to /workspace/install/my_bringup/lib/python3.10/site-packages/my_bringup-0.0.0-py3.10.egg-info
+[1.121s] running install_scripts
+[1.215s] writing list of installed files to '/workspace/build/my_bringup/install.log'
+[1.256s] Invoked command in '/workspace/src/my_bringup' returned '0': PYTHONPATH=/workspace/build/my_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/my_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_bringup build --build-base /workspace/build/my_bringup/build install --record /workspace/build/my_bringup/install.log --single-version-externally-managed install_data

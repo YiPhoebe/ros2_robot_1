@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating image_pub.egg-info
+writing image_pub.egg-info/PKG-INFO
+writing dependency_links to image_pub.egg-info/dependency_links.txt
+writing entry points to image_pub.egg-info/entry_points.txt
+writing requirements to image_pub.egg-info/requires.txt
+writing top-level names to image_pub.egg-info/top_level.txt
+writing manifest file 'image_pub.egg-info/SOURCES.txt'
+reading manifest file 'image_pub.egg-info/SOURCES.txt'
+writing manifest file 'image_pub.egg-info/SOURCES.txt'
+running build_ext
+Creating /workspace/install/image_pub/lib/python3.10/site-packages/image-pub.egg-link (link to .)
+Installing image_pub_node script to /workspace/install/image_pub/lib/image_pub
+Installing image_pub_rgb_node script to /workspace/install/image_pub/lib/image_pub
+Installing image_recorder_node script to /workspace/install/image_pub/lib/image_pub
+
+Installed /workspace/build/image_pub
+running symlink_data
+creating /workspace/install/image_pub/share/ament_index
+creating /workspace/install/image_pub/share/ament_index/resource_index
+creating /workspace/install/image_pub/share/ament_index/resource_index/packages
+symbolically linking /workspace/build/image_pub/resource/image_pub -> /workspace/install/image_pub/share/ament_index/resource_index/packages
+symbolically linking /workspace/build/image_pub/package.xml -> /workspace/install/image_pub/share/image_pub

@@ -1,0 +1,50 @@
+[0.000000] (-) TimerEvent: {}
+[0.003191] (-) JobUnselected: {'identifier': 'my_bringup'}
+[0.003363] (-) JobUnselected: {'identifier': 'overlay_viz'}
+[0.003661] (-) JobUnselected: {'identifier': 'yolo_subscriber_py'}
+[0.003962] (image_pub) JobQueued: {'identifier': 'image_pub', 'dependencies': OrderedDict()}
+[0.004370] (image_pub) JobStarted: {'identifier': 'image_pub'}
+[0.101314] (-) TimerEvent: {}
+[0.203703] (-) TimerEvent: {}
+[0.305762] (-) TimerEvent: {}
+[0.406798] (-) TimerEvent: {}
+[0.513968] (-) TimerEvent: {}
+[0.614790] (-) TimerEvent: {}
+[0.717259] (-) TimerEvent: {}
+[0.846808] (-) TimerEvent: {}
+[0.943789] (image_pub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/workspace/build/image_pub/build', '--no-deps', 'symlink_data'], 'cwd': '/workspace/build/image_pub', 'env': {'PYTHON_BASIC_REPL': '1', 'HOSTNAME': '8633f914704c', 'GIT_ASKPASS': '/root/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/root/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/workspace', 'TERM_PROGRAM_VERSION': '1.97.2', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-41cafbb5-747a-4ffe-82f9-a665f19b563a.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/root/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/workspace/install', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-5582ab34-981e-4a9e-8e17-ef67a8cafbf1.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/root/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-5582ab34-981e-4a9e-8e17-ef67a8cafbf1.sock","/tmp/.X11-unix/X13"]', 'DISPLAY': ':13', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/root/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-c52ddf65534b7b46.txt', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/root/.vscode-server/data/User/workspaceStorage/2cb4626c3fff014b51d7c20001078b36/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-94067cdf47.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-5582ab34-981e-4a9e-8e17-ef67a8cafbf1.sock', 'AMENT_PREFIX_PATH': '/workspace/install/yolo_subscriber_py:/workspace/install/overlay_viz:/workspace/install/my_bringup:/workspace/install/image_pub:/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X13', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/workspace/build/image_pub', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/build/image_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/image_pub/lib/python3.10/site-packages:/workspace/build/yolo_subscriber_py:/workspace/install/yolo_subscriber_py/lib/python3.10/site-packages:/workspace/build/overlay_viz:/workspace/install/overlay_viz/lib/python3.10/site-packages:/workspace/build/my_bringup:/workspace/install/my_bringup/lib/python3.10/site-packages:/workspace/build/image_pub:/workspace/install/image_pub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.954621] (-) TimerEvent: {}
+[1.055913] (-) TimerEvent: {}
+[1.158898] (-) TimerEvent: {}
+[1.235402] (image_pub) StdoutLine: {'line': b'running develop\n'}
+[1.260189] (-) TimerEvent: {}
+[1.361994] (-) TimerEvent: {}
+[1.387329] (image_pub) StdoutLine: {'line': b'running egg_info\n'}
+[1.388025] (image_pub) StdoutLine: {'line': b'creating image_pub.egg-info\n'}
+[1.388802] (image_pub) StdoutLine: {'line': b'writing image_pub.egg-info/PKG-INFO\n'}
+[1.391111] (image_pub) StdoutLine: {'line': b'writing dependency_links to image_pub.egg-info/dependency_links.txt\n'}
+[1.393702] (image_pub) StdoutLine: {'line': b'writing entry points to image_pub.egg-info/entry_points.txt\n'}
+[1.396269] (image_pub) StdoutLine: {'line': b'writing requirements to image_pub.egg-info/requires.txt\n'}
+[1.398308] (image_pub) StdoutLine: {'line': b'writing top-level names to image_pub.egg-info/top_level.txt\n'}
+[1.400983] (image_pub) StdoutLine: {'line': b"writing manifest file 'image_pub.egg-info/SOURCES.txt'\n"}
+[1.419380] (image_pub) StdoutLine: {'line': b"reading manifest file 'image_pub.egg-info/SOURCES.txt'\n"}
+[1.426040] (image_pub) StdoutLine: {'line': b"writing manifest file 'image_pub.egg-info/SOURCES.txt'\n"}
+[1.448629] (image_pub) StdoutLine: {'line': b'running build_ext\n'}
+[1.450797] (image_pub) StdoutLine: {'line': b'Creating /workspace/install/image_pub/lib/python3.10/site-packages/image-pub.egg-link (link to .)\n'}
+[1.460105] (image_pub) StdoutLine: {'line': b'Installing image_pub_node script to /workspace/install/image_pub/lib/image_pub\n'}
+[1.469403] (-) TimerEvent: {}
+[1.475651] (image_pub) StdoutLine: {'line': b'Installing image_pub_rgb_node script to /workspace/install/image_pub/lib/image_pub\n'}
+[1.570418] (image_pub) StdoutLine: {'line': b'Installing image_recorder_node script to /workspace/install/image_pub/lib/image_pub\n'}
+[1.574361] (-) TimerEvent: {}
+[1.579677] (image_pub) StdoutLine: {'line': b'\n'}
+[1.581040] (image_pub) StdoutLine: {'line': b'Installed /workspace/build/image_pub\n'}
+[1.581420] (image_pub) StdoutLine: {'line': b'running symlink_data\n'}
+[1.582554] (image_pub) StdoutLine: {'line': b'creating /workspace/install/image_pub/share/ament_index\n'}
+[1.583525] (image_pub) StdoutLine: {'line': b'creating /workspace/install/image_pub/share/ament_index/resource_index\n'}
+[1.584037] (image_pub) StdoutLine: {'line': b'creating /workspace/install/image_pub/share/ament_index/resource_index/packages\n'}
+[1.586509] (image_pub) StdoutLine: {'line': b'symbolically linking /workspace/build/image_pub/resource/image_pub -> /workspace/install/image_pub/share/ament_index/resource_index/packages\n'}
+[1.588194] (image_pub) StdoutLine: {'line': b'symbolically linking /workspace/build/image_pub/package.xml -> /workspace/install/image_pub/share/image_pub\n'}
+[1.642161] (image_pub) CommandEnded: {'returncode': 0}
+[1.674992] (-) TimerEvent: {}
+[1.708351] (image_pub) JobEnded: {'identifier': 'image_pub', 'rc': 0}
+[1.714679] (-) EventReactorShutdown: {}

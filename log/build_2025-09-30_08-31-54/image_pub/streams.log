@@ -1,0 +1,44 @@
+[2.003s] Invoking command in '/workspace/build/image_pub': PYTHONPATH=/workspace/build/image_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/image_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /workspace/build/image_pub/build
+[2.483s] running develop
+[3.127s] Removing /workspace/install/image_pub/lib/python3.10/site-packages/image-pub.egg-link (link to .)
+[3.182s] Invoked command in '/workspace/build/image_pub' returned '0': PYTHONPATH=/workspace/build/image_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/image_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /workspace/build/image_pub/build
+[3.183s] Invoking command in '/workspace/src/image_pub': PYTHONPATH=/workspace/build/image_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/image_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_pub build --build-base /workspace/build/image_pub/build install --record /workspace/build/image_pub/install.log --single-version-externally-managed install_data --force
+[3.506s] running egg_info
+[3.507s] writing ../../build/image_pub/image_pub.egg-info/PKG-INFO
+[3.508s] writing dependency_links to ../../build/image_pub/image_pub.egg-info/dependency_links.txt
+[3.510s] writing entry points to ../../build/image_pub/image_pub.egg-info/entry_points.txt
+[3.510s] writing requirements to ../../build/image_pub/image_pub.egg-info/requires.txt
+[3.511s] writing top-level names to ../../build/image_pub/image_pub.egg-info/top_level.txt
+[3.517s] reading manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'
+[3.527s] writing manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'
+[3.528s] running build
+[3.528s] running build_py
+[3.530s] creating /workspace/build/image_pub/build
+[3.532s] creating /workspace/build/image_pub/build/lib
+[3.534s] creating /workspace/build/image_pub/build/lib/image_pub
+[3.535s] copying image_pub/image_pub_rgb.py -> /workspace/build/image_pub/build/lib/image_pub
+[3.537s] copying image_pub/image_pub_node.py -> /workspace/build/image_pub/build/lib/image_pub
+[3.542s] copying image_pub/__init__.py -> /workspace/build/image_pub/build/lib/image_pub
+[3.547s] copying image_pub/record_video_node.py -> /workspace/build/image_pub/build/lib/image_pub
+[3.553s] running install
+[3.556s] running install_lib
+[3.557s] creating /workspace/install/image_pub/lib/python3.10/site-packages/image_pub
+[3.560s] copying /workspace/build/image_pub/build/lib/image_pub/image_pub_rgb.py -> /workspace/install/image_pub/lib/python3.10/site-packages/image_pub
+[3.565s] copying /workspace/build/image_pub/build/lib/image_pub/image_pub_node.py -> /workspace/install/image_pub/lib/python3.10/site-packages/image_pub
+[3.572s] copying /workspace/build/image_pub/build/lib/image_pub/__init__.py -> /workspace/install/image_pub/lib/python3.10/site-packages/image_pub
+[3.578s] copying /workspace/build/image_pub/build/lib/image_pub/record_video_node.py -> /workspace/install/image_pub/lib/python3.10/site-packages/image_pub
+[3.627s] byte-compiling /workspace/install/image_pub/lib/python3.10/site-packages/image_pub/image_pub_rgb.py to image_pub_rgb.cpython-310.pyc
+[3.679s] byte-compiling /workspace/install/image_pub/lib/python3.10/site-packages/image_pub/image_pub_node.py to image_pub_node.cpython-310.pyc
+[3.697s] byte-compiling /workspace/install/image_pub/lib/python3.10/site-packages/image_pub/__init__.py to __init__.cpython-310.pyc
+[3.733s] byte-compiling /workspace/install/image_pub/lib/python3.10/site-packages/image_pub/record_video_node.py to record_video_node.cpython-310.pyc
+[3.743s] running install_data
+[3.746s] copying resource/image_pub -> /workspace/install/image_pub/share/ament_index/resource_index/packages
+[3.749s] copying package.xml -> /workspace/install/image_pub/share/image_pub
+[3.756s] running install_egg_info
+[3.758s] Copying ../../build/image_pub/image_pub.egg-info to /workspace/install/image_pub/lib/python3.10/site-packages/image_pub-0.0.0-py3.10.egg-info
+[3.789s] running install_scripts
+[3.825s] Installing image_pub_node script to /workspace/install/image_pub/lib/image_pub
+[3.828s] Installing image_pub_rgb_node script to /workspace/install/image_pub/lib/image_pub
+[3.830s] Installing image_recorder_node script to /workspace/install/image_pub/lib/image_pub
+[3.840s] writing list of installed files to '/workspace/build/image_pub/install.log'
+[3.900s] Invoked command in '/workspace/src/image_pub' returned '0': PYTHONPATH=/workspace/build/image_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/image_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_pub build --build-base /workspace/build/image_pub/build install --record /workspace/build/image_pub/install.log --single-version-externally-managed install_data --force

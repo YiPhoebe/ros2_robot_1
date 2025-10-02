@@ -1,0 +1,5 @@
+[console_scripts]
+image_pub_node = image_pub.image_pub_node:main
+image_pub_rgb_node = image_pub.image_pub_rgb:main
+image_recorder_node = image_pub.record_video_node:main
+

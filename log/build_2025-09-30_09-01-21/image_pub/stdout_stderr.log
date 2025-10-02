@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/image_pub/image_pub.egg-info/PKG-INFO
+writing dependency_links to ../../build/image_pub/image_pub.egg-info/dependency_links.txt
+writing entry points to ../../build/image_pub/image_pub.egg-info/entry_points.txt
+writing requirements to ../../build/image_pub/image_pub.egg-info/requires.txt
+writing top-level names to ../../build/image_pub/image_pub.egg-info/top_level.txt
+reading manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'
+writing manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/workspace/install/image_pub/lib/python3.10/site-packages/image_pub-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/image_pub/image_pub.egg-info to /workspace/install/image_pub/lib/python3.10/site-packages/image_pub-0.0.0-py3.10.egg-info
+running install_scripts
+Installing image_pub_node script to /workspace/install/image_pub/lib/image_pub
+Installing image_pub_rgb_node script to /workspace/install/image_pub/lib/image_pub
+Installing image_recorder_node script to /workspace/install/image_pub/lib/image_pub
+writing list of installed files to '/workspace/build/image_pub/install.log'

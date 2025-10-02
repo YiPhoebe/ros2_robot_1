@@ -1,0 +1,49 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+Visualization Manager:
+  Class: ""
+  Enabled: true
+  Global Options:
+    Fixed Frame: camera
+  Displays:
+    - Class: rviz_default_plugins/Image
+      Enabled: true
+      Name: Image
+      Topic:
+        Value: /image_raw
+      Normalize Range: true
+      Min Value: 0
+      Max Value: 1
+    - Class: rviz_default_plugins/PointCloud2
+      Enabled: true
+      Name: YOLO Centers
+      Topic:
+        Value: /yolo/centers
+      Style: Points
+      Size (Pixels): 6
+      Color Transformer: Intensity
+      Use Fixed Frame: true
+  Tools:
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/FocusCamera
+    - Class: rviz_default_plugins/Measure
+    - Class: rviz_default_plugins/SetInitialPose
+    - Class: rviz_default_plugins/SetGoal
+    - Class: rviz_default_plugins/PublishPoint
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 2
+      Pitch: 0.785
+      Yaw: 0.785
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 800
+  Width: 1200
+  X: 100
+  Y: 100
+

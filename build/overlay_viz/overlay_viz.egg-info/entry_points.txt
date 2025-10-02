@@ -1,0 +1,3 @@
+[console_scripts]
+overlay_viz_node = overlay_viz.overlay_viz_node:main
+

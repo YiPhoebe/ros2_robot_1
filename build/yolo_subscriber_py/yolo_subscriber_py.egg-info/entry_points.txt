@@ -1,0 +1,4 @@
+[console_scripts]
+det_to_pc_node = yolo_subscriber_py.det_to_pc_node:main
+yolo_subscriber_py_node = yolo_subscriber_py.yolo_subscriber_py_node:main
+

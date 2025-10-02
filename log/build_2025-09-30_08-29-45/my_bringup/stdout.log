@@ -1,0 +1,26 @@
+running egg_info
+creating ../../build/my_bringup/my_bringup.egg-info
+writing ../../build/my_bringup/my_bringup.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_bringup/my_bringup.egg-info/dependency_links.txt
+writing entry points to ../../build/my_bringup/my_bringup.egg-info/entry_points.txt
+writing requirements to ../../build/my_bringup/my_bringup.egg-info/requires.txt
+writing top-level names to ../../build/my_bringup/my_bringup.egg-info/top_level.txt
+writing manifest file '../../build/my_bringup/my_bringup.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_bringup/my_bringup.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_bringup/my_bringup.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+creating /workspace/install/my_bringup/share/ament_index
+creating /workspace/install/my_bringup/share/ament_index/resource_index
+creating /workspace/install/my_bringup/share/ament_index/resource_index/packages
+copying resource/my_bringup -> /workspace/install/my_bringup/share/ament_index/resource_index/packages
+copying package.xml -> /workspace/install/my_bringup/share/my_bringup
+creating /workspace/install/my_bringup/share/my_bringup/launch
+copying launch/all_nodes.launch.py -> /workspace/install/my_bringup/share/my_bringup/launch
+creating /workspace/install/my_bringup/share/my_bringup/rviz
+copying rviz/yolo_viz.rviz -> /workspace/install/my_bringup/share/my_bringup/rviz
+running install_egg_info
+Copying ../../build/my_bringup/my_bringup.egg-info to /workspace/install/my_bringup/lib/python3.10/site-packages/my_bringup-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/workspace/build/my_bringup/install.log'

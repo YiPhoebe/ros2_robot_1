@@ -1,0 +1,6 @@
+source;share/overlay_viz/hook/pythonpath.ps1
+source;share/overlay_viz/hook/pythonpath.dsv
+source;share/overlay_viz/hook/pythonpath.sh
+source;share/overlay_viz/hook/ament_prefix_path.ps1
+source;share/overlay_viz/hook/ament_prefix_path.dsv
+source;share/overlay_viz/hook/ament_prefix_path.sh
