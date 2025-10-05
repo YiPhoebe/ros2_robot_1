@@ -41,12 +41,72 @@
 - 연구/산업적 확장성: 자율주행, 로봇 내비게이션, 의료/산업용 영상 융합에도 응용 가능.  
 
 ## 📂 디렉토리 구조
-/workspace  
+/workspace
  ├── src/                # ROS2 패키지 소스코드  
+ │   ├── image_pub/                         # 🎥 이미지·비디오 퍼블리셔 (raw 영상 → /image_raw)
+ │   │   ├── image_pub/
+ │   │   │   ├── image_pub_node.py          # 메인 노드: video/camera → sensor_msgs/Image 퍼블리시
+ │   │   │   ├── image_pub_rgb.py           # RGB 전용 퍼블리시 예시
+ │   │   │   └── record_video_node.py       # 비디오 파일 녹화 노드
+ │   │   ├── package.xml
+ │   │   ├── resource/
+ │   │   │   └── image_pub
+ │   │   ├── setup.cfg
+ │   │   ├── setup.py
+ │   │   └── test/                          # 코드 규칙 검사(pep257, flake8 등)
+ │   │       ├── test_copyright.py
+ │   │       ├── test_flake8.py
+ │   │       └── test_pep257.py
+ │   │
+ │   ├── yolo_subscriber_py/                # 🧠 YOLO 감지 구독 및 퍼블리시
+ │   │   ├── yolo_subscriber_py/
+ │   │   │   ├── yolo_subscriber_py_node.py # /image_raw 구독 → YOLO 감지 → /yolo/bounding_boxes 퍼블리시
+ │   │   │   └── det_to_pc_node.py          # 감지 결과를 포인트클라우드와 결합(확장용)
+ │   │   ├── package.xml
+ │   │   ├── resource/
+ │   │   │   └── yolo_subscriber_py
+ │   │   ├── setup.cfg
+ │   │   ├── setup.py
+ │   │   └── test/
+ │   │       ├── test_copyright.py
+ │   │       ├── test_flake8.py
+ │   │       └── test_pep257.py
+ │   │
+ │   ├── overlay_viz/                       # 🧩 감지 결과 오버레이 시각화 (YOLO + 원본 영상)
+ │   │   ├── overlay_viz/
+ │   │   │   └── overlay_viz_node.py        # Bounding Box 시각화 및 융합 화면 출력
+ │   │   ├── package.xml
+ │   │   ├── resource/
+ │   │   │   └── overlay_viz
+ │   │   ├── setup.cfg
+ │   │   ├── setup.py
+ │   │   └── test/
+ │   │       ├── test_copyright.py
+ │   │       ├── test_flake8.py
+ │   │       └── test_pep257.py
+ │   │
+ │   └── my_bringup/                        # 🚀 통합 실행(launch) + RViz 설정
+ │       ├── launch/
+ │       │   └── all_nodes.launch.py        # image_pub + yolo_subscriber + overlay_viz 통합 실행
+ │       ├── my_bringup/
+ │       │   └── __init__.py
+ │       ├── package.xml
+ │       ├── resource/
+ │       │   └── my_bringup
+ │       ├── rviz/
+ │       │   └── yolo_viz.rviz              # RViz 시각화 설정
+ │       ├── setup.cfg
+ │       ├── setup.py
+ │       └── test/
+ │           ├── test_copyright.py
+ │           ├── test_flake8.py
+ │           └── test_pep257.py
+ │
  ├── scripts/            # 데이터 처리 스크립트 (make_rgb_lidar_video.py 등)  
  ├── media/              # 원본 데이터셋 (mp4, pcd 등)  
  ├── output/             # 결과 영상 저장 위치  
  └── README.md  
+
 
 ## 📦 src 패키지 구조
 

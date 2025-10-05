@@ -11,7 +11,7 @@
 *.zip
 
 # 데이터 폴더 제외
-media/.DS_Store
+media/
 __pycache__/
 *.pyc
 .DS_Store
