@@ -20,7 +20,15 @@ class YoloSubscriber(Node):
     def __init__(self):
         super().__init__('yolo_subscriber_py_node')
 
-        # params
+        # params - 코드 기본값은 안전하게, 실행 시엔 실험적으로
+        # 실행할땐 런타임 override(덮어쓰기), 프로젝트마다 best threshold 다르니깐 유동적으로
+        """
+        ros2 run yolo_subscriber_py yolo_subscriber_py_node --ros-args \
+          -p model_path:=/workspace/models/yolov8n.pt \
+          -p device:=cuda:0 \
+          -p conf:=0.3 \
+          -p topic_in:=/camera/image_raw
+        """
         self.declare_parameter('model_path', 'yolov8n.pt')   # 또는 yolov11n.pt 등
         self.declare_parameter('conf', 0.25)
         self.declare_parameter('imgsz', 640)
